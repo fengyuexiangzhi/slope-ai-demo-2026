@@ -1,0 +1,45 @@
+# ====== 安全红线：密钥和配置 ======
+.env
+.env.local
+.env.*.local
+
+# ====== Python 缓存 ======
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+.eggs/
+build/
+dist/
+
+# ====== 虚拟环境 ======
+.venv/
+venv/
+env/
+ENV/
+
+# ====== IDE / 编辑器 ======
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ====== Streamlit 运行时 ======
+.streamlit/secrets.toml
+.streamlit/secrets.toml.example
+
+# ====== 数据与报告（运行时产物） ======
+*.xlsx
+*.xls
+*.docx
+!template.docx
+*.png
+*.jpg
+*.log
+
+# ====== 系统 ======
+.Trashes/
+ehthumbs.db
